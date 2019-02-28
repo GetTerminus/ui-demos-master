@@ -684,6 +684,8 @@ undefined
 
 @terminus/ui/login-form
 
+@terminus/ui/logo
+
 @terminus/ui/navigation
 
 @terminus/ui/paginator
