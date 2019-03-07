@@ -672,6 +672,8 @@ undefined
 
 @terminus/ui/date-range
 
+@terminus/ui/expansion-panel
+
 @angular/material/progress-bar
 
 @terminus/ui/file-upload
