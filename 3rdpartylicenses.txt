@@ -395,7 +395,7 @@ Apache-2.0
  
 
 
-text-mask-core
+text-mask-addons
 Unlicense
 This is free and unencumbered software released into the public domain.
 
@@ -423,7 +423,7 @@ OTHER DEALINGS IN THE SOFTWARE.
 For more information, please refer to <http://unlicense.org>
 
 
-text-mask-addons
+text-mask-core
 Unlicense
 This is free and unencumbered software released into the public domain.
 
