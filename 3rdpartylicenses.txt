@@ -945,6 +945,8 @@ THE SOFTWARE.
 
 @terminus/ui/expansion-panel
 
+@terminus/ui/tabs
+
 @terminus/ui/csv-entry
 
 @angular/material/radio
