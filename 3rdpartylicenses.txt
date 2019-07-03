@@ -1,5 +1,5 @@
-@angular/animations
-MIT
+@amcharts/amcharts4
+SEE LICENSE IN LICENSE
 
 @angular/cdk
 MIT
@@ -163,9 +163,6 @@ THE SOFTWARE.
 
 undefined
 
-@amcharts/amcharts4
-SEE LICENSE IN LICENSE
-
 @amcharts/amcharts4-geodata
 SEE LICENSE IN LICENSE
 
@@ -193,6 +190,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+
+@angular/animations
+MIT
 
 @angular/forms
 MIT
