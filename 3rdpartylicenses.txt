@@ -1,6 +1,9 @@
 @amcharts/amcharts4
 SEE LICENSE IN LICENSE
 
+@angular/animations
+MIT
+
 @angular/cdk
 MIT
 The MIT License
@@ -100,10 +103,7 @@ THE SOFTWARE.
 
 @angular/material/tooltip
 
-@ngrx/effects
-MIT
-
-@ngrx/store
+@angular/router
 MIT
 
 @terminus/ngx-tools
@@ -191,9 +191,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-@angular/animations
-MIT
-
 @angular/forms
 MIT
 
@@ -206,9 +203,6 @@ MIT
 @angular/material/radio
 
 @angular/platform-browser
-MIT
-
-@angular/router
 MIT
 
 @terminus/ui/autocomplete
