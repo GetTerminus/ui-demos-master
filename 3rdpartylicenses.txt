@@ -1,6 +1,9 @@
 @amcharts/amcharts4
 SEE LICENSE IN LICENSE
 
+@angular/animations
+MIT
+
 @angular/cdk
 MIT
 The MIT License
@@ -81,8 +84,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-
-@angular/material/button
 
 @angular/material/checkbox
 
@@ -189,13 +190,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-@angular/animations
-MIT
-
 @angular/forms
 MIT
 
-@angular/material/chips
+@angular/material/button
 
 @angular/material/progress-bar
 
@@ -212,6 +210,8 @@ MIT
 @terminus/ui/autocomplete
 
 @terminus/ui/chart
+
+@terminus/ui/chip
 
 @terminus/ui/confirmation
 
