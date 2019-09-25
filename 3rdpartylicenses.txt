@@ -1,6 +1,3 @@
-@amcharts/amcharts4
-SEE LICENSE IN LICENSE
-
 @angular/animations
 MIT
 
@@ -97,9 +94,14 @@ THE SOFTWARE.
 
 @angular/material/progress-spinner
 
+@angular/material/slide-toggle
+
 @angular/material/toolbar
 
 @angular/material/tooltip
+
+@angular/router
+MIT
 
 @terminus/ngx-tools
 MIT
@@ -158,9 +160,28 @@ THE SOFTWARE.
 
 @terminus/ui/checkbox
 
+@terminus/ui/chip
+
+@terminus/ui/date-range
+
+@terminus/ui/form-field
+
 @terminus/ui/icon
 
+@terminus/ui/icon-button
+
+date-fns
+MIT
+# License
+
+date-fns is licensed under the [MIT license](http://kossnocorp.mit-license.org).
+Read more about MIT at [TLDRLegal](https://tldrlegal.com/license/mit-license).
+
+
 undefined
+
+@amcharts/amcharts4
+SEE LICENSE IN LICENSE
 
 @amcharts/amcharts4-geodata
 SEE LICENSE IN LICENSE
@@ -199,19 +220,14 @@ MIT
 
 @angular/material/radio
 
-@angular/material/slide-toggle
-
 @angular/platform-browser
-MIT
-
-@angular/router
 MIT
 
 @terminus/ui/autocomplete
 
 @terminus/ui/chart
 
-@terminus/ui/chip
+@terminus/ui/cohort-date-range
 
 @terminus/ui/confirmation
 
@@ -219,15 +235,9 @@ MIT
 
 @terminus/ui/csv-entry
 
-@terminus/ui/date-range
-
 @terminus/ui/expansion-panel
 
 @terminus/ui/file-upload
-
-@terminus/ui/form-field
-
-@terminus/ui/icon-button
 
 @terminus/ui/input
 
@@ -477,14 +487,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-date-fns
-MIT
-# License
-
-date-fns is licensed under the [MIT license](http://kossnocorp.mit-license.org).
-Read more about MIT at [TLDRLegal](https://tldrlegal.com/license/mit-license).
-
 
 hammerjs
 MIT
