@@ -95,6 +95,8 @@ THE SOFTWARE.
 
 @angular/material/progress-spinner
 
+@angular/material/radio
+
 @angular/material/slide-toggle
 
 @angular/material/tooltip
@@ -179,6 +181,8 @@ THE SOFTWARE.
 @terminus/ui/menu
 
 @terminus/ui/paginator
+
+@terminus/ui/radio-group
 
 @terminus/ui/select
 
@@ -550,8 +554,6 @@ SOFTWARE.
 
 @angular/material/progress-bar
 
-@angular/material/radio
-
 @terminus/ui/autocomplete
 
 @terminus/ui/chart
@@ -563,6 +565,8 @@ SOFTWARE.
 @terminus/ui/copy
 
 @terminus/ui/csv-entry
+
+@terminus/ui/drawer
 
 @terminus/ui/expansion-panel
 
@@ -577,8 +581,6 @@ SOFTWARE.
 @terminus/ui/navigation
 
 @terminus/ui/option
-
-@terminus/ui/radio-group
 
 @terminus/ui/scrollbars
 
