@@ -57,9 +57,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-@angular/forms
-MIT
-
 @angular/material
 MIT
 The MIT License
@@ -167,6 +164,8 @@ THE SOFTWARE.
 @terminus/ui/chip
 
 @terminus/ui/date-range
+
+@terminus/ui/expansion-panel
 
 @terminus/ui/form-field
 
@@ -516,6 +515,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+@angular/forms
+MIT
+
 @angular/material/datepicker
 
 @angular/material/dialog
@@ -535,8 +537,6 @@ SOFTWARE.
 @terminus/ui/csv-entry
 
 @terminus/ui/drawer
-
-@terminus/ui/expansion-panel
 
 @terminus/ui/file-upload
 
