@@ -1,0 +1,17 @@
+{
+  "name": "@terminus/ui/demos",
+  "description": "Terminus UI Library Demos",
+  "license": "MIT",
+  "author": "@terminus",
+  "homepage": "https://getterminus.github.io/ui-demos-release",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GetTerminus/ui-demos-release.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GetTerminus/terminus-ui/issues"
+  },
+  "devDependencies": {
+    "chalk-cli": "^4.1.0"
+  }
+}
