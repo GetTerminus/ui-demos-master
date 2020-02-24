@@ -57,6 +57,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+@angular/forms
+MIT
+
 @angular/material
 MIT
 The MIT License
@@ -514,9 +517,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
-@angular/forms
-MIT
 
 @angular/material/datepicker
 
@@ -1194,7 +1194,7 @@ Apache-2.0
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright (C) 2012-present   SheetJS LLC 
+   Copyright (C) 2012-present   SheetJS LLC
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
