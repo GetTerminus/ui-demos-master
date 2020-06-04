@@ -199,55 +199,134 @@ SOFTWARE.
 
 
 
-@terminus/ui
+@terminus/ui-autocomplete
 MIT
-The MIT License
 
-Copyright (c) 2019 Terminus Software, LLC.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-
-canvg
+@terminus/ui-autofocus
 MIT
-The MIT License (MIT)
 
-Copyright (c) 2010 - present Gabe Lerner (gabelerner@gmail.com) - https://github.com/canvg/canvg
+@terminus/ui-button
+MIT
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+@terminus/ui-card
+MIT
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+@terminus/ui-chart
+MIT
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+@terminus/ui-checkbox
+MIT
 
+@terminus/ui-chip
+MIT
+
+@terminus/ui-cohort-date-range
+MIT
+
+@terminus/ui-confirmation
+MIT
+
+@terminus/ui-copy
+MIT
+
+@terminus/ui-csv-entry
+MIT
+
+@terminus/ui-date-range
+MIT
+
+@terminus/ui-drawer
+MIT
+
+@terminus/ui-expansion-panel
+MIT
+
+@terminus/ui-file-upload
+MIT
+
+@terminus/ui-form-field
+MIT
+
+@terminus/ui-icon
+MIT
+
+@terminus/ui-icon-button
+MIT
+
+@terminus/ui-input
+MIT
+
+@terminus/ui-link
+MIT
+
+@terminus/ui-loading-overlay
+MIT
+
+@terminus/ui-login-form
+MIT
+
+@terminus/ui-logo
+MIT
+
+@terminus/ui-menu
+MIT
+
+@terminus/ui-navigation
+MIT
+
+@terminus/ui-option
+MIT
+
+@terminus/ui-paginator
+MIT
+
+@terminus/ui-pipes
+MIT
+
+@terminus/ui-popover
+MIT
+
+@terminus/ui-radio-group
+MIT
+
+@terminus/ui-scrollbars
+MIT
+
+@terminus/ui-search
+MIT
+
+@terminus/ui-select
+MIT
+
+@terminus/ui-selection-list
+MIT
+
+@terminus/ui-sort
+MIT
+
+@terminus/ui-spacing
+MIT
+
+@terminus/ui-table
+MIT
+
+@terminus/ui-tabs
+MIT
+
+@terminus/ui-toggle
+MIT
+
+@terminus/ui-tooltip
+MIT
+
+@terminus/ui-utilities
+MIT
+
+@terminus/ui-validation-messages
+MIT
+
+@terminus/ui-validators
+MIT
 
 core-js
 MIT
@@ -270,6 +349,30 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+css-loader
+MIT
+Copyright JS Foundation and other contributors
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 d3-array
@@ -792,6 +895,31 @@ FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 
+terminus-oss
+MIT
+The MIT License
+
+Copyright (c) 2019 Terminus Software, LLC.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
 text-mask-addons
 Unlicense
 This is free and unencumbered software released into the public domain.
@@ -1135,7 +1263,7 @@ zone.js
 MIT
 The MIT License
 
-Copyright (c) 2010-2020 Google LLC. http://angular.io/license
+Copyright (c) 2010-2019 Google LLC. http://angular.io/license
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
