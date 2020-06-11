@@ -1,0 +1,715 @@
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["date-range-date-range-module-ngfactory"], {
+  /***/
+  "./src/app/components/date-range/date-range-routing.module.ts":
+  /*!********************************************************************!*\
+    !*** ./src/app/components/date-range/date-range-routing.module.ts ***!
+    \********************************************************************/
+
+  /*! exports provided: DateRangeRoutingModule */
+
+  /***/
+  function srcAppComponentsDateRangeDateRangeRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "DateRangeRoutingModule", function () {
+      return DateRangeRoutingModule;
+    });
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/router */
+    "../../node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _date_range_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./date-range.component */
+    "./src/app/components/date-range/date-range.component.ts");
+
+    var routes = [{
+      path: '',
+      component: _date_range_component__WEBPACK_IMPORTED_MODULE_1__["DateRangeComponent"]
+    }];
+
+    var DateRangeRoutingModule = function DateRangeRoutingModule() {
+      _classCallCheck(this, DateRangeRoutingModule);
+    };
+    /***/
+
+  },
+
+  /***/
+  "./src/app/components/date-range/date-range.component.ngfactory.js":
+  /*!*************************************************************************!*\
+    !*** ./src/app/components/date-range/date-range.component.ngfactory.js ***!
+    \*************************************************************************/
+
+  /*! exports provided: RenderType_DateRangeComponent, View_DateRangeComponent_0, View_DateRangeComponent_Host_0, DateRangeComponentNgFactory */
+
+  /***/
+  function srcAppComponentsDateRangeDateRangeComponentNgfactoryJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "RenderType_DateRangeComponent", function () {
+      return RenderType_DateRangeComponent;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "View_DateRangeComponent_0", function () {
+      return View_DateRangeComponent_0;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "View_DateRangeComponent_Host_0", function () {
+      return View_DateRangeComponent_Host_0;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "DateRangeComponentNgFactory", function () {
+      return DateRangeComponentNgFactory;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _dist_libs_ui_card_terminus_ui_card_ngfactory__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ../../../../../../dist/libs/ui/card/terminus-ui-card.ngfactory */
+    "../../dist/libs/ui/card/terminus-ui-card.ngfactory.js");
+    /* harmony import */
+
+
+    var _terminus_ui_card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @terminus/ui-card */
+    "../../dist/libs/ui/card/fesm2015/terminus-ui-card.js");
+    /* harmony import */
+
+
+    var _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @terminus/ui-spacing */
+    "../../dist/libs/ui/spacing/fesm2015/terminus-ui-spacing.js");
+    /* harmony import */
+
+
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @angular/forms */
+    "../../node_modules/@angular/forms/fesm2015/forms.js");
+    /* harmony import */
+
+
+    var _dist_libs_ui_date_range_terminus_ui_date_range_ngfactory__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ../../../../../../dist/libs/ui/date-range/terminus-ui-date-range.ngfactory */
+    "../../dist/libs/ui/date-range/terminus-ui-date-range.ngfactory.js");
+    /* harmony import */
+
+
+    var _terminus_ui_date_range__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! @terminus/ui-date-range */
+    "../../dist/libs/ui/date-range/fesm2015/terminus-ui-date-range.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! @angular/common */
+    "../../node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _date_range_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    /*! ./date-range.component */
+    "./src/app/components/date-range/date-range.component.ts");
+    /* harmony import */
+
+
+    var _terminus_ui_validators__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! @terminus/ui-validators */
+    "../../dist/libs/ui/validators/fesm2015/terminus-ui-validators.js");
+    /**
+     * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+     *
+     * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes,extraRequire}
+     * tslint:disable
+     */
+
+
+    var styles_DateRangeComponent = [];
+
+    var RenderType_DateRangeComponent = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcrt"]({
+      encapsulation: 2,
+      styles: styles_DateRangeComponent,
+      data: {}
+    });
+
+    function View_DateRangeComponent_0(_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 18, "ts-card", [["class", "ts-card"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_card_terminus_ui_card_ngfactory__WEBPACK_IMPORTED_MODULE_1__["View_TsCardComponent_0"], _dist_libs_ui_card_terminus_ui_card_ngfactory__WEBPACK_IMPORTED_MODULE_1__["RenderType_TsCardComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 49152, null, 0, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_2__["TsCardComponent"], [], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](2, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_3__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](3, 0, null, 0, 3, "h3", [["tsCardTitle", ""], ["tsVerticalSpacing", ""]], [[8, "className", 0]], null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](4, 16384, null, 0, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_2__["TsCardTitleDirective"], [[3, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_2__["TsCardComponent"]]], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](5, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_3__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵted"](-1, null, ["Demo Controls"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](7, 0, null, 0, 3, "div", [["tsVerticalSpacing", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](8, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_3__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](9, 0, null, null, 1, "button", [], null, [[null, "click"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("click" === en) {
+          var pd_0 = _co.toggleStart() !== false;
+          ad = pd_0 && ad;
+        }
+
+        return ad;
+      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵted"](10, null, [" ", " start date control "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](11, 0, null, 0, 1, "button", [], null, [[null, "click"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("click" === en) {
+          var pd_0 = _co.updateStartDate() !== false;
+          ad = pd_0 && ad;
+        }
+
+        return ad;
+      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵted"](-1, null, ["Update start date"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](13, 0, null, 0, 0, "br", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](14, 0, null, 0, 1, "button", [], null, [[null, "click"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("click" === en) {
+          var pd_0 = _co.printRange(_co.myForm.value) !== false;
+          ad = pd_0 && ad;
+        }
+
+        return ad;
+      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵted"](-1, null, ["Print Range"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](16, 0, null, 0, 0, "br", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](17, 0, null, 0, 1, "button", [], null, [[null, "click"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("click" === en) {
+          var pd_0 = _co.changeLocale() !== false;
+          ad = pd_0 && ad;
+        }
+
+        return ad;
+      }, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵted"](18, null, ["Toggle locale to ", ""])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](19, 0, null, null, 8, "ts-card", [["class", "ts-card"]], null, null, null, _dist_libs_ui_card_terminus_ui_card_ngfactory__WEBPACK_IMPORTED_MODULE_1__["View_TsCardComponent_0"], _dist_libs_ui_card_terminus_ui_card_ngfactory__WEBPACK_IMPORTED_MODULE_1__["RenderType_TsCardComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](20, 49152, null, 0, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_2__["TsCardComponent"], [], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](21, 0, null, 0, 6, "form", [["novalidate", ""]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "submit"], [null, "reset"]], function (_v, en, $event) {
+        var ad = true;
+
+        if ("submit" === en) {
+          var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵnov"](_v, 23).onSubmit($event) !== false;
+          ad = pd_0 && ad;
+        }
+
+        if ("reset" === en) {
+          var pd_1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵnov"](_v, 23).onReset() !== false;
+          ad = pd_1 && ad;
+        }
+
+        return ad;
+      }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](22, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ɵangular_packages_forms_forms_y"], [], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](23, 540672, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormGroupDirective"], [[8, null], [8, null]], {
+        form: [0, "form"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵprd"](2048, null, _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ControlContainer"], null, [_angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormGroupDirective"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](25, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_4__["NgControlStatusGroup"], [[4, _angular_forms__WEBPACK_IMPORTED_MODULE_4__["ControlContainer"]]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](26, 0, null, null, 1, "ts-date-range", [["class", "ts-date-range"]], null, [[null, "dateRangeChange"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("dateRangeChange" === en) {
+          var pd_0 = _co.printRange(_co.myForm.value) !== false;
+          ad = pd_0 && ad;
+        }
+
+        return ad;
+      }, _dist_libs_ui_date_range_terminus_ui_date_range_ngfactory__WEBPACK_IMPORTED_MODULE_5__["View_TsDateRangeComponent_0"], _dist_libs_ui_date_range_terminus_ui_date_range_ngfactory__WEBPACK_IMPORTED_MODULE_5__["RenderType_TsDateRangeComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](27, 245760, null, 0, _terminus_ui_date_range__WEBPACK_IMPORTED_MODULE_6__["TsDateRangeComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ChangeDetectorRef"]], {
+        dateFormGroup: [0, "dateFormGroup"],
+        dateLocale: [1, "dateLocale"]
+      }, {
+        dateRangeChange: "dateRangeChange"
+      }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](28, 0, null, null, 2, "pre", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵted"](29, null, ["FORM VALUE:\n", "\n"])), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵpid"](0, _angular_common__WEBPACK_IMPORTED_MODULE_7__["JsonPipe"], [])], function (_ck, _v) {
+        var _co = _v.component;
+        var currVal_0 = "";
+
+        _ck(_v, 2, 0, currVal_0);
+
+        var currVal_2 = "";
+
+        _ck(_v, 5, 0, currVal_2);
+
+        var currVal_3 = "";
+
+        _ck(_v, 8, 0, currVal_3);
+
+        var currVal_13 = _co.myForm;
+
+        _ck(_v, 23, 0, currVal_13);
+
+        var currVal_14 = _co.myForm.get("dateRange");
+
+        var currVal_15 = _co.locale;
+
+        _ck(_v, 27, 0, currVal_14, currVal_15);
+      }, function (_ck, _v) {
+        var _co = _v.component;
+
+        var currVal_1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵnov"](_v, 4).tsCardTitle;
+
+        _ck(_v, 3, 0, currVal_1);
+
+        var tmp_4_0 = null;
+        var currVal_4 = ((tmp_4_0 = _co.myForm.get("dateRange.startDate")) == null ? null : tmp_4_0.enabled) ? "Disable" : "Enable";
+
+        _ck(_v, 10, 0, currVal_4);
+
+        var currVal_5 = _co.locale === "fr" ? "en-US" : "fr";
+
+        _ck(_v, 18, 0, currVal_5);
+
+        var currVal_6 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵnov"](_v, 25).ngClassUntouched;
+
+        var currVal_7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵnov"](_v, 25).ngClassTouched;
+
+        var currVal_8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵnov"](_v, 25).ngClassPristine;
+
+        var currVal_9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵnov"](_v, 25).ngClassDirty;
+
+        var currVal_10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵnov"](_v, 25).ngClassValid;
+
+        var currVal_11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵnov"](_v, 25).ngClassInvalid;
+
+        var currVal_12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵnov"](_v, 25).ngClassPending;
+
+        _ck(_v, 21, 0, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10, currVal_11, currVal_12);
+
+        var currVal_16 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵunv"](_v, 29, 0, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵnov"](_v, 30).transform(_co.myForm.value));
+
+        _ck(_v, 29, 0, currVal_16);
+      });
+    }
+
+    function View_DateRangeComponent_Host_0(_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵeld"](0, 0, null, null, 1, "demo-date-range", [], null, null, null, View_DateRangeComponent_0, RenderType_DateRangeComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵdid"](1, 114688, null, 0, _date_range_component__WEBPACK_IMPORTED_MODULE_8__["DateRangeComponent"], [_angular_forms__WEBPACK_IMPORTED_MODULE_4__["FormBuilder"], _terminus_ui_validators__WEBPACK_IMPORTED_MODULE_9__["TsValidatorsService"]], null, null)], function (_ck, _v) {
+        _ck(_v, 1, 0);
+      }, null);
+    }
+
+    var DateRangeComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵccf"]("demo-date-range", _date_range_component__WEBPACK_IMPORTED_MODULE_8__["DateRangeComponent"], View_DateRangeComponent_Host_0, {}, {}, []);
+    /***/
+
+  },
+
+  /***/
+  "./src/app/components/date-range/date-range.component.ts":
+  /*!***************************************************************!*\
+    !*** ./src/app/components/date-range/date-range.component.ts ***!
+    \***************************************************************/
+
+  /*! exports provided: DateRangeComponent */
+
+  /***/
+  function srcAppComponentsDateRangeDateRangeComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "DateRangeComponent", function () {
+      return DateRangeComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/forms */
+    "../../node_modules/@angular/forms/fesm2015/forms.js");
+    /* harmony import */
+
+
+    var _terminus_ui_validators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @terminus/ui-validators */
+    "../../dist/libs/ui/validators/fesm2015/terminus-ui-validators.js");
+
+    var date1 = new Date();
+
+    if (date1.getDate() > 25) {
+      date1.setDate(date1.getDate() + 6);
+    }
+
+    var date2 = new Date(date1);
+    date2.setDate(date2.getDate() + 5);
+
+    var DateRangeComponent = /*#__PURE__*/function () {
+      function DateRangeComponent(formBuilder, validatorsService) {
+        _classCallCheck(this, DateRangeComponent);
+
+        this.formBuilder = formBuilder;
+        this.validatorsService = validatorsService;
+        this.locale = 'en-US';
+        this.myMin = new Date(2017, 4, 2);
+        /*
+         *initialStart: Date = new Date(2017, 4, 5);
+         *initialEnd: Date = new Date(2017, 4, 9);
+         */
+
+        this.defaultMax = '2017-10-03';
+        this.myForm = this.formBuilder.group({
+          dateRange: this.formBuilder.group({
+            startDate: [null, [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["Validators"].required, this.validatorsService.maxDate(date1.toISOString())]],
+            endDate: [null, [_angular_forms__WEBPACK_IMPORTED_MODULE_0__["Validators"].required]]
+          })
+        });
+      }
+
+      _createClass(DateRangeComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {
+          /*
+           *this.myForm.valueChanges.subscribe(data => console.log('DEMO: Subscribed form changes', data));
+           */
+        }
+      }, {
+        key: "printRange",
+        value: function printRange(formValue) {
+          console.log('DEMO: formValue: ', formValue);
+        }
+      }, {
+        key: "updateStartDate",
+        value: function updateStartDate() {
+          var ctrl = this.myForm.get('dateRange.startDate');
+
+          if (ctrl) {
+            ctrl.setValue(new Date(2019, 0, 2));
+          }
+        }
+      }, {
+        key: "toggleStart",
+        value: function toggleStart() {
+          var ctrl = this.myForm.get('dateRange.startDate');
+
+          if (ctrl) {
+            if (ctrl.enabled) {
+              ctrl.disable();
+            } else {
+              ctrl.enable();
+            }
+          }
+        }
+      }, {
+        key: "changeLocale",
+        value: function changeLocale() {
+          this.locale = this.locale === 'en-US' ? 'fr' : 'en-US';
+        }
+      }]);
+
+      return DateRangeComponent;
+    }();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/components/date-range/date-range.module.ngfactory.js":
+  /*!**********************************************************************!*\
+    !*** ./src/app/components/date-range/date-range.module.ngfactory.js ***!
+    \**********************************************************************/
+
+  /*! exports provided: DateRangeModuleNgFactory */
+
+  /***/
+  function srcAppComponentsDateRangeDateRangeModuleNgfactoryJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "DateRangeModuleNgFactory", function () {
+      return DateRangeModuleNgFactory;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _date_range_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./date-range.module */
+    "./src/app/components/date-range/date-range.module.ts");
+    /* harmony import */
+
+
+    var _node_modules_angular_router_router_ngfactory__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../../../../../../node_modules/@angular/router/router.ngfactory */
+    "../../node_modules/@angular/router/router.ngfactory.js");
+    /* harmony import */
+
+
+    var _date_range_component_ngfactory__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./date-range.component.ngfactory */
+    "./src/app/components/date-range/date-range.component.ngfactory.js");
+    /* harmony import */
+
+
+    var _node_modules_angular_material_dialog_index_ngfactory__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ../../../../../../node_modules/@angular/material/dialog/index.ngfactory */
+    "../../node_modules/@angular/material/dialog/index.ngfactory.js");
+    /* harmony import */
+
+
+    var _node_modules_angular_material_datepicker_index_ngfactory__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ../../../../../../node_modules/@angular/material/datepicker/index.ngfactory */
+    "../../node_modules/@angular/material/datepicker/index.ngfactory.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! @angular/common */
+    "../../node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! @angular/forms */
+    "../../node_modules/@angular/forms/fesm2015/forms.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    /*! @angular/flex-layout/core */
+    "../../node_modules/@angular/flex-layout/esm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! @angular/cdk/overlay */
+    "../../node_modules/@angular/cdk/fesm2015/overlay.js");
+    /* harmony import */
+
+
+    var _angular_cdk_bidi__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! @angular/cdk/bidi */
+    "../../node_modules/@angular/cdk/fesm2015/bidi.js");
+    /* harmony import */
+
+
+    var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! @angular/material/dialog */
+    "../../node_modules/@angular/material/fesm2015/dialog.js");
+    /* harmony import */
+
+
+    var _angular_cdk_observers__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! @angular/cdk/observers */
+    "../../node_modules/@angular/cdk/fesm2015/observers.js");
+    /* harmony import */
+
+
+    var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! @angular/material/datepicker */
+    "../../node_modules/@angular/material/fesm2015/datepicker.js");
+    /* harmony import */
+
+
+    var _angular_material_core__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    /*! @angular/material/core */
+    "../../node_modules/@angular/material/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_cdk_platform__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    /*! @angular/cdk/platform */
+    "../../node_modules/@angular/cdk/fesm2015/platform.js");
+    /* harmony import */
+
+
+    var _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    /*! @terminus/ui-pipes */
+    "../../dist/libs/ui/pipes/fesm2015/terminus-ui-pipes.js");
+    /* harmony import */
+
+
+    var _terminus_ui_validation_messages__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    /*! @terminus/ui-validation-messages */
+    "../../dist/libs/ui/validation-messages/fesm2015/terminus-ui-validation-messages.js");
+    /* harmony import */
+
+
+    var _terminus_ui_validators__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+    /*! @terminus/ui-validators */
+    "../../dist/libs/ui/validators/fesm2015/terminus-ui-validators.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
+    /*! @angular/router */
+    "../../node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _date_range_routing_module__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    /*! ./date-range-routing.module */
+    "./src/app/components/date-range/date-range-routing.module.ts");
+    /* harmony import */
+
+
+    var _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+    /*! @angular/cdk/a11y */
+    "../../node_modules/@angular/cdk/fesm2015/a11y.js");
+    /* harmony import */
+
+
+    var _angular_material_icon__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+    /*! @angular/material/icon */
+    "../../node_modules/@angular/material/fesm2015/icon.js");
+    /* harmony import */
+
+
+    var _terminus_ui_icon__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
+    /*! @terminus/ui-icon */
+    "../../dist/libs/ui/icon/fesm2015/terminus-ui-icon.js");
+    /* harmony import */
+
+
+    var _terminus_ui_card__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+    /*! @terminus/ui-card */
+    "../../dist/libs/ui/card/fesm2015/terminus-ui-card.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+    /*! @angular/flex-layout/flex */
+    "../../node_modules/@angular/flex-layout/esm2015/flex.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(
+    /*! @angular/flex-layout/extended */
+    "../../node_modules/@angular/flex-layout/esm2015/extended.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout_grid__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(
+    /*! @angular/flex-layout/grid */
+    "../../node_modules/@angular/flex-layout/esm2015/grid.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(
+    /*! @angular/flex-layout */
+    "../../node_modules/@angular/flex-layout/esm2015/flex-layout.js");
+    /* harmony import */
+
+
+    var _angular_material_button__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(
+    /*! @angular/material/button */
+    "../../node_modules/@angular/material/fesm2015/button.js");
+    /* harmony import */
+
+
+    var _angular_cdk_portal__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(
+    /*! @angular/cdk/portal */
+    "../../node_modules/@angular/cdk/fesm2015/portal.js");
+    /* harmony import */
+
+
+    var _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(
+    /*! @angular/cdk/scrolling */
+    "../../node_modules/@angular/cdk/fesm2015/scrolling.js");
+    /* harmony import */
+
+
+    var _terminus_ui_form_field__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(
+    /*! @terminus/ui-form-field */
+    "../../dist/libs/ui/form-field/fesm2015/terminus-ui-form-field.js");
+    /* harmony import */
+
+
+    var _terminus_ui_input__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(
+    /*! @terminus/ui-input */
+    "../../dist/libs/ui/input/fesm2015/terminus-ui-input.js");
+    /* harmony import */
+
+
+    var _terminus_ui_date_range__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(
+    /*! @terminus/ui-date-range */
+    "../../dist/libs/ui/date-range/fesm2015/terminus-ui-date-range.js");
+    /* harmony import */
+
+
+    var _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(
+    /*! @terminus/ui-spacing */
+    "../../dist/libs/ui/spacing/fesm2015/terminus-ui-spacing.js");
+    /* harmony import */
+
+
+    var _date_range_component__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(
+    /*! ./date-range.component */
+    "./src/app/components/date-range/date-range.component.ts");
+    /**
+     * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+     *
+     * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes,extraRequire}
+     * tslint:disable
+     */
+
+
+    var DateRangeModuleNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcmf"](_date_range_module__WEBPACK_IMPORTED_MODULE_1__["DateRangeModule"], [], function (_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmod"]([_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](512, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵCodegenComponentFactoryResolver"], [[8, [_node_modules_angular_router_router_ngfactory__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_router_router_lNgFactory"], _date_range_component_ngfactory__WEBPACK_IMPORTED_MODULE_3__["DateRangeComponentNgFactory"], _node_modules_angular_material_dialog_index_ngfactory__WEBPACK_IMPORTED_MODULE_4__["MatDialogContainerNgFactory"], _node_modules_angular_material_datepicker_index_ngfactory__WEBPACK_IMPORTED_MODULE_5__["MatDatepickerContentNgFactory"], _node_modules_angular_material_datepicker_index_ngfactory__WEBPACK_IMPORTED_MODULE_5__["MatCalendarHeaderNgFactory"]]], [3, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"]], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModuleRef"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgLocalization"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgLocaleLocalization"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_forms__WEBPACK_IMPORTED_MODULE_7__["ɵangular_packages_forms_forms_n"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__["ɵangular_packages_forms_forms_n"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_forms__WEBPACK_IMPORTED_MODULE_7__["FormBuilder"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__["FormBuilder"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](5120, _angular_core__WEBPACK_IMPORTED_MODULE_0__["APP_BOOTSTRAP_LISTENER"], function (p0_0, p0_1) {
+        return [_angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["removeStyles"](p0_0, p0_1)];
+      }, [_angular_common__WEBPACK_IMPORTED_MODULE_6__["DOCUMENT"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["Overlay"], _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["Overlay"], [_angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["ScrollStrategyOptions"], _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["OverlayContainer"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"], _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["OverlayPositionBuilder"], _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["OverlayKeyboardDispatcher"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["DOCUMENT"], _angular_cdk_bidi__WEBPACK_IMPORTED_MODULE_10__["Directionality"], [2, _angular_common__WEBPACK_IMPORTED_MODULE_6__["Location"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](5120, _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["ɵangular_material_src_cdk_overlay_overlay_c"], _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["ɵangular_material_src_cdk_overlay_overlay_d"], [_angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["Overlay"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](5120, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__["MAT_DIALOG_SCROLL_STRATEGY"], _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__["MAT_DIALOG_SCROLL_STRATEGY_PROVIDER_FACTORY"], [_angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["Overlay"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](135680, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__["MatDialog"], _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__["MatDialog"], [_angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["Overlay"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injector"], [2, _angular_common__WEBPACK_IMPORTED_MODULE_6__["Location"]], [2, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__["MAT_DIALOG_DEFAULT_OPTIONS"]], _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__["MAT_DIALOG_SCROLL_STRATEGY"], [3, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__["MatDialog"]], _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["OverlayContainer"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_cdk_observers__WEBPACK_IMPORTED_MODULE_12__["MutationObserverFactory"], _angular_cdk_observers__WEBPACK_IMPORTED_MODULE_12__["MutationObserverFactory"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_13__["MatDatepickerIntl"], _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_13__["MatDatepickerIntl"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](5120, _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_13__["MAT_DATEPICKER_SCROLL_STRATEGY"], _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_13__["MAT_DATEPICKER_SCROLL_STRATEGY_FACTORY"], [_angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["Overlay"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_material_core__WEBPACK_IMPORTED_MODULE_14__["DateAdapter"], _angular_material_core__WEBPACK_IMPORTED_MODULE_14__["NativeDateAdapter"], [[2, _angular_material_core__WEBPACK_IMPORTED_MODULE_14__["MAT_DATE_LOCALE"]], _angular_cdk_platform__WEBPACK_IMPORTED_MODULE_15__["Platform"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsAbbreviateNumberPipe"], _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsAbbreviateNumberPipe"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsDatePipe"], _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsDatePipe"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsRoundNumberPipe"], _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsRoundNumberPipe"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsSentenceCasePipe"], _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsSentenceCasePipe"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsTimeAgoPipe"], _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsTimeAgoPipe"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsTitleCasePipe"], _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsTitleCasePipe"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsTruncateAtPipe"], _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsTruncateAtPipe"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _terminus_ui_validation_messages__WEBPACK_IMPORTED_MODULE_17__["TsValidationMessagesService"], _terminus_ui_validation_messages__WEBPACK_IMPORTED_MODULE_17__["TsValidationMessagesService"], [_terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsDatePipe"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _terminus_ui_validators__WEBPACK_IMPORTED_MODULE_18__["TsValidatorsService"], _terminus_ui_validators__WEBPACK_IMPORTED_MODULE_18__["TsValidatorsService"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_common__WEBPACK_IMPORTED_MODULE_6__["CommonModule"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["CommonModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_router__WEBPACK_IMPORTED_MODULE_19__["RouterModule"], _angular_router__WEBPACK_IMPORTED_MODULE_19__["RouterModule"], [[2, _angular_router__WEBPACK_IMPORTED_MODULE_19__["ɵangular_packages_router_router_a"]], [2, _angular_router__WEBPACK_IMPORTED_MODULE_19__["Router"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _date_range_routing_module__WEBPACK_IMPORTED_MODULE_20__["DateRangeRoutingModule"], _date_range_routing_module__WEBPACK_IMPORTED_MODULE_20__["DateRangeRoutingModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_forms__WEBPACK_IMPORTED_MODULE_7__["ɵangular_packages_forms_forms_d"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__["ɵangular_packages_forms_forms_d"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_forms__WEBPACK_IMPORTED_MODULE_7__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__["FormsModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_forms__WEBPACK_IMPORTED_MODULE_7__["ReactiveFormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_7__["ReactiveFormsModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_cdk_bidi__WEBPACK_IMPORTED_MODULE_10__["BidiModule"], _angular_cdk_bidi__WEBPACK_IMPORTED_MODULE_10__["BidiModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_material_core__WEBPACK_IMPORTED_MODULE_14__["MatCommonModule"], _angular_material_core__WEBPACK_IMPORTED_MODULE_14__["MatCommonModule"], [_angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_21__["HighContrastModeDetector"], [2, _angular_material_core__WEBPACK_IMPORTED_MODULE_14__["MATERIAL_SANITY_CHECKS"]], [2, _angular_common__WEBPACK_IMPORTED_MODULE_6__["DOCUMENT"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_cdk_platform__WEBPACK_IMPORTED_MODULE_15__["PlatformModule"], _angular_cdk_platform__WEBPACK_IMPORTED_MODULE_15__["PlatformModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_material_core__WEBPACK_IMPORTED_MODULE_14__["MatRippleModule"], _angular_material_core__WEBPACK_IMPORTED_MODULE_14__["MatRippleModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_material_icon__WEBPACK_IMPORTED_MODULE_22__["MatIconModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_22__["MatIconModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _terminus_ui_icon__WEBPACK_IMPORTED_MODULE_23__["TsIconModule"], _terminus_ui_icon__WEBPACK_IMPORTED_MODULE_23__["TsIconModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_24__["TsCardModule"], _terminus_ui_card__WEBPACK_IMPORTED_MODULE_24__["TsCardModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["CoreModule"], _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["CoreModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_25__["FlexModule"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_25__["FlexModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_26__["ExtendedModule"], _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_26__["ExtendedModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_flex_layout_grid__WEBPACK_IMPORTED_MODULE_27__["GridModule"], _angular_flex_layout_grid__WEBPACK_IMPORTED_MODULE_27__["GridModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_flex_layout__WEBPACK_IMPORTED_MODULE_28__["FlexLayoutModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_28__["FlexLayoutModule"], [_angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["SERVER_TOKEN"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_material_button__WEBPACK_IMPORTED_MODULE_29__["MatButtonModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_29__["MatButtonModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_cdk_portal__WEBPACK_IMPORTED_MODULE_30__["PortalModule"], _angular_cdk_portal__WEBPACK_IMPORTED_MODULE_30__["PortalModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_31__["CdkScrollableModule"], _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_31__["CdkScrollableModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_31__["ScrollingModule"], _angular_cdk_scrolling__WEBPACK_IMPORTED_MODULE_31__["ScrollingModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["OverlayModule"], _angular_cdk_overlay__WEBPACK_IMPORTED_MODULE_9__["OverlayModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__["MatDialogModule"], _angular_material_dialog__WEBPACK_IMPORTED_MODULE_11__["MatDialogModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_cdk_observers__WEBPACK_IMPORTED_MODULE_12__["ObserversModule"], _angular_cdk_observers__WEBPACK_IMPORTED_MODULE_12__["ObserversModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_21__["A11yModule"], _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_21__["A11yModule"], [_angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_21__["HighContrastModeDetector"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_13__["MatDatepickerModule"], _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_13__["MatDatepickerModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_material_core__WEBPACK_IMPORTED_MODULE_14__["NativeDateModule"], _angular_material_core__WEBPACK_IMPORTED_MODULE_14__["NativeDateModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsPipesModule"], _terminus_ui_pipes__WEBPACK_IMPORTED_MODULE_16__["TsPipesModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _terminus_ui_validation_messages__WEBPACK_IMPORTED_MODULE_17__["TsValidationMessagesModule"], _terminus_ui_validation_messages__WEBPACK_IMPORTED_MODULE_17__["TsValidationMessagesModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _terminus_ui_form_field__WEBPACK_IMPORTED_MODULE_32__["TsFormFieldModule"], _terminus_ui_form_field__WEBPACK_IMPORTED_MODULE_32__["TsFormFieldModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _terminus_ui_input__WEBPACK_IMPORTED_MODULE_33__["TsInputModule"], _terminus_ui_input__WEBPACK_IMPORTED_MODULE_33__["TsInputModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _terminus_ui_date_range__WEBPACK_IMPORTED_MODULE_34__["TsDateRangeModule"], _terminus_ui_date_range__WEBPACK_IMPORTED_MODULE_34__["TsDateRangeModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_35__["TsSpacingModule"], _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_35__["TsSpacingModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _date_range_module__WEBPACK_IMPORTED_MODULE_1__["DateRangeModule"], _date_range_module__WEBPACK_IMPORTED_MODULE_1__["DateRangeModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_router__WEBPACK_IMPORTED_MODULE_19__["ROUTES"], function () {
+        return [[{
+          path: "",
+          component: _date_range_component__WEBPACK_IMPORTED_MODULE_36__["DateRangeComponent"]
+        }]];
+      }, []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](256, _angular_material_core__WEBPACK_IMPORTED_MODULE_14__["MAT_DATE_FORMATS"], _terminus_ui_input__WEBPACK_IMPORTED_MODULE_33__["TS_DATE_FORMATS"], [])]);
+    });
+    /***/
+
+  },
+
+  /***/
+  "./src/app/components/date-range/date-range.module.ts":
+  /*!************************************************************!*\
+    !*** ./src/app/components/date-range/date-range.module.ts ***!
+    \************************************************************/
+
+  /*! exports provided: DateRangeModule */
+
+  /***/
+  function srcAppComponentsDateRangeDateRangeModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "DateRangeModule", function () {
+      return DateRangeModule;
+    });
+
+    var DateRangeModule = function DateRangeModule() {
+      _classCallCheck(this, DateRangeModule);
+    };
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=date-range-date-range-module-ngfactory-es5.js.map

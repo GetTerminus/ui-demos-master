@@ -1,0 +1,1105 @@
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["button-button-module-ngfactory"], {
+  /***/
+  "./src/app/components/button/button-routing.module.ts":
+  /*!************************************************************!*\
+    !*** ./src/app/components/button/button-routing.module.ts ***!
+    \************************************************************/
+
+  /*! exports provided: ButtonRoutingModule */
+
+  /***/
+  function srcAppComponentsButtonButtonRoutingModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ButtonRoutingModule", function () {
+      return ButtonRoutingModule;
+    });
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/router */
+    "../../node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _button_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./button.component */
+    "./src/app/components/button/button.component.ts");
+
+    var routes = [{
+      path: '',
+      component: _button_component__WEBPACK_IMPORTED_MODULE_1__["ButtonComponent"]
+    }];
+
+    var ButtonRoutingModule = function ButtonRoutingModule() {
+      _classCallCheck(this, ButtonRoutingModule);
+    };
+    /***/
+
+  },
+
+  /***/
+  "./src/app/components/button/button.component.ngfactory.js":
+  /*!*****************************************************************!*\
+    !*** ./src/app/components/button/button.component.ngfactory.js ***!
+    \*****************************************************************/
+
+  /*! exports provided: RenderType_ButtonComponent, View_ButtonComponent_0, View_ButtonComponent_Host_0, ButtonComponentNgFactory */
+
+  /***/
+  function srcAppComponentsButtonButtonComponentNgfactoryJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "RenderType_ButtonComponent", function () {
+      return RenderType_ButtonComponent;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "View_ButtonComponent_0", function () {
+      return View_ButtonComponent_0;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "View_ButtonComponent_Host_0", function () {
+      return View_ButtonComponent_Host_0;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ButtonComponentNgFactory", function () {
+      return ButtonComponentNgFactory;
+    });
+    /* harmony import */
+
+
+    var _button_component_scss_shim_ngstyle__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! ./button.component.scss.shim.ngstyle */
+    "./src/app/components/button/button.component.scss.shim.ngstyle.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/forms */
+    "../../node_modules/@angular/forms/fesm2015/forms.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! @angular/common */
+    "../../node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _dist_libs_ui_card_terminus_ui_card_ngfactory__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ../../../../../../dist/libs/ui/card/terminus-ui-card.ngfactory */
+    "../../dist/libs/ui/card/terminus-ui-card.ngfactory.js");
+    /* harmony import */
+
+
+    var _terminus_ui_card__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! @terminus/ui-card */
+    "../../dist/libs/ui/card/fesm2015/terminus-ui-card.js");
+    /* harmony import */
+
+
+    var _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! @terminus/ui-spacing */
+    "../../dist/libs/ui/spacing/fesm2015/terminus-ui-spacing.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! @angular/flex-layout/flex */
+    "../../node_modules/@angular/flex-layout/esm2015/flex.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    /*! @angular/flex-layout/core */
+    "../../node_modules/@angular/flex-layout/esm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_cdk_bidi__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! @angular/cdk/bidi */
+    "../../node_modules/@angular/cdk/fesm2015/bidi.js");
+    /* harmony import */
+
+
+    var _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ../../../../../../dist/libs/ui/button/terminus-ui-button.ngfactory */
+    "../../dist/libs/ui/button/terminus-ui-button.ngfactory.js");
+    /* harmony import */
+
+
+    var _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! @terminus/ui-button */
+    "../../dist/libs/ui/button/fesm2015/terminus-ui-button.js");
+    /* harmony import */
+
+
+    var _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! @terminus/ngx-tools/browser */
+    "../../node_modules/@terminus/ngx-tools/fesm2015/terminus-ngx-tools-browser.js");
+    /* harmony import */
+
+
+    var _dist_libs_ui_icon_terminus_ui_icon_ngfactory__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! ../../../../../../dist/libs/ui/icon/terminus-ui-icon.ngfactory */
+    "../../dist/libs/ui/icon/terminus-ui-icon.ngfactory.js");
+    /* harmony import */
+
+
+    var _terminus_ui_icon__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    /*! @terminus/ui-icon */
+    "../../dist/libs/ui/icon/fesm2015/terminus-ui-icon.js");
+    /* harmony import */
+
+
+    var _angular_material_icon__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    /*! @angular/material/icon */
+    "../../node_modules/@angular/material/fesm2015/icon.js");
+    /* harmony import */
+
+
+    var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    /*! @angular/platform-browser */
+    "../../node_modules/@angular/platform-browser/fesm2015/platform-browser.js");
+    /* harmony import */
+
+
+    var _button_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    /*! ./button.component */
+    "./src/app/components/button/button.component.ts");
+    /**
+     * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+     *
+     * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes,extraRequire}
+     * tslint:disable
+     */
+
+
+    var styles_ButtonComponent = [_button_component_scss_shim_ngstyle__WEBPACK_IMPORTED_MODULE_0__["styles"]];
+
+    var RenderType_ButtonComponent = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵcrt"]({
+      encapsulation: 0,
+      styles: styles_ButtonComponent,
+      data: {}
+    });
+
+    function View_ButtonComponent_1(_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 4, "option", [], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 147456, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgSelectOption"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], [2, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["SelectControlValueAccessor"]]], {
+        value: [0, "value"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](2, 147456, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_x"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], [8, null]], {
+        value: [0, "value"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](3, null, [" ", " "])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](4, 1)], function (_ck, _v) {
+        var currVal_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵinlineInterpolate"](1, "", _v.context.$implicit, "");
+
+        _ck(_v, 1, 0, currVal_0);
+
+        var currVal_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵinlineInterpolate"](1, "", _v.context.$implicit, "");
+
+        _ck(_v, 2, 0, currVal_1);
+      }, function (_ck, _v) {
+        var currVal_2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 3, 0, _ck(_v, 4, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v.parent, 0), _v.context.$implicit));
+
+        _ck(_v, 3, 0, currVal_2);
+      });
+    }
+
+    function View_ButtonComponent_2(_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 4, "option", [], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 147456, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgSelectOption"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], [2, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["SelectControlValueAccessor"]]], {
+        value: [0, "value"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](2, 147456, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_forms_forms_x"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], [8, null]], {
+        value: [0, "value"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](3, null, [" ", " "])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵppd"](4, 1)], function (_ck, _v) {
+        var currVal_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵinlineInterpolate"](1, "", _v.context.$implicit, "");
+
+        _ck(_v, 1, 0, currVal_0);
+
+        var currVal_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵinlineInterpolate"](1, "", _v.context.$implicit, "");
+
+        _ck(_v, 2, 0, currVal_1);
+      }, function (_ck, _v) {
+        var currVal_2 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵunv"](_v, 3, 0, _ck(_v, 4, 0, _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v.parent, 0), _v.context.$implicit));
+
+        _ck(_v, 3, 0, currVal_2);
+      });
+    }
+
+    function View_ButtonComponent_0(_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵpid"](0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["TitleCasePipe"], []), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](1, 0, null, null, 55, "ts-card", [["class", "ts-card"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_card_terminus_ui_card_ngfactory__WEBPACK_IMPORTED_MODULE_4__["View_TsCardComponent_0"], _dist_libs_ui_card_terminus_ui_card_ngfactory__WEBPACK_IMPORTED_MODULE_4__["RenderType_TsCardComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](2, 49152, null, 0, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_5__["TsCardComponent"], [], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](3, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](4, 0, null, 0, 52, "div", [["fxLayout", "row"], ["fxLayoutGap", "2em"]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](5, 671744, null, 0, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_7__["DefaultLayoutDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["StyleUtils"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_7__["LayoutStyleBuilder"], _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["MediaMarshaller"]], {
+        fxLayout: [0, "fxLayout"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](6, 1720320, null, 0, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_7__["DefaultLayoutGapDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgZone"], _angular_cdk_bidi__WEBPACK_IMPORTED_MODULE_9__["Directionality"], _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["StyleUtils"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_7__["LayoutGapStyleBuilder"], _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["MediaMarshaller"]], {
+        fxLayoutGap: [0, "fxLayoutGap"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](7, 0, null, null, 35, "div", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](8, 0, null, null, 11, "div", [["tsVerticalSpacing", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](9, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](10, 0, null, null, 9, "label", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" Theme: "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](12, 0, null, null, 7, "select", [["name", "myTheme"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "change"], [null, "blur"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("change" === en) {
+          var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 13).onChange($event.target.value) !== false;
+          ad = pd_0 && ad;
+        }
+
+        if ("blur" === en) {
+          var pd_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 13).onTouched() !== false;
+          ad = pd_1 && ad;
+        }
+
+        if ("ngModelChange" === en) {
+          var pd_2 = (_co.myTheme = $event) !== false;
+          ad = pd_2 && ad;
+        }
+
+        return ad;
+      }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](13, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["SelectControlValueAccessor"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](1024, null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], function (p0_0) {
+        return [p0_0];
+      }, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["SelectControlValueAccessor"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](15, 671744, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"], [[8, null], [8, null], [8, null], [6, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"]]], {
+        name: [0, "name"],
+        model: [1, "model"]
+      }, {
+        update: "ngModelChange"
+      }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](2048, null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControl"], null, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](17, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], [[4, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControl"]]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_ButtonComponent_1)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](19, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
+        ngForOf: [0, "ngForOf"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](20, 0, null, null, 11, "div", [["tsVerticalSpacing", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](21, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](22, 0, null, null, 9, "label", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" Format: "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](24, 0, null, null, 7, "select", [["name", "myFormat"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "change"], [null, "blur"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("change" === en) {
+          var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 25).onChange($event.target.value) !== false;
+          ad = pd_0 && ad;
+        }
+
+        if ("blur" === en) {
+          var pd_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 25).onTouched() !== false;
+          ad = pd_1 && ad;
+        }
+
+        if ("ngModelChange" === en) {
+          var pd_2 = (_co.myFormat = $event) !== false;
+          ad = pd_2 && ad;
+        }
+
+        return ad;
+      }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](25, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["SelectControlValueAccessor"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](1024, null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], function (p0_0) {
+        return [p0_0];
+      }, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["SelectControlValueAccessor"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](27, 671744, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"], [[8, null], [8, null], [8, null], [6, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"]]], {
+        name: [0, "name"],
+        model: [1, "model"]
+      }, {
+        update: "ngModelChange"
+      }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](2048, null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControl"], null, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](29, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], [[4, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControl"]]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵand"](16777216, null, null, 1, null, View_ButtonComponent_2)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](31, 278528, null, 0, _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewContainerRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["TemplateRef"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["IterableDiffers"]], {
+        ngForOf: [0, "ngForOf"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](32, 0, null, null, 10, "div", [["tsVerticalSpacing", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](33, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](34, 0, null, null, 8, "label", [["tsVerticalSpacing", ""]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](35, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" Right-align layout: "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](37, 0, null, null, 5, "input", [["type", "checkbox"]], [[2, "ng-untouched", null], [2, "ng-touched", null], [2, "ng-pristine", null], [2, "ng-dirty", null], [2, "ng-valid", null], [2, "ng-invalid", null], [2, "ng-pending", null]], [[null, "ngModelChange"], [null, "change"], [null, "blur"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("change" === en) {
+          var pd_0 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 38).onChange($event.target.checked) !== false;
+          ad = pd_0 && ad;
+        }
+
+        if ("blur" === en) {
+          var pd_1 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 38).onTouched() !== false;
+          ad = pd_1 && ad;
+        }
+
+        if ("ngModelChange" === en) {
+          var pd_2 = (_co.layoutIsRightAligned = $event) !== false;
+          ad = pd_2 && ad;
+        }
+
+        return ad;
+      }, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](38, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["CheckboxControlValueAccessor"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](1024, null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"], function (p0_0) {
+        return [p0_0];
+      }, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["CheckboxControlValueAccessor"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](40, 671744, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"], [[8, null], [8, null], [8, null], [6, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NG_VALUE_ACCESSOR"]]], {
+        model: [0, "model"]
+      }, {
+        update: "ngModelChange"
+      }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵprd"](2048, null, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControl"], null, [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgModel"]]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](42, 16384, null, 0, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControlStatus"], [[4, _angular_forms__WEBPACK_IMPORTED_MODULE_2__["NgControl"]]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](43, 0, null, null, 13, "div", [], [[4, "textAlign", null]], null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](44, 0, null, null, 12, "div", [["fxLayout", "column"]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](45, 671744, null, 0, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_7__["DefaultLayoutDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["StyleUtils"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_7__["LayoutStyleBuilder"], _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["MediaMarshaller"]], {
+        fxLayout: [0, "fxLayout"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](46, 0, null, null, 4, "div", [["tsVerticalSpacing", "small--0"]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](47, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](48, 0, null, null, 2, "ts-button", [["class", "ts-button"]], null, [[null, "clicked"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("clicked" === en) {
+          var pd_0 = _co.run("progress2") !== false;
+          ad = pd_0 && ad;
+        }
+
+        return ad;
+      }, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](49, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        format: [0, "format"],
+        iconName: [1, "iconName"],
+        isDisabled: [2, "isDisabled"],
+        showProgress: [3, "showProgress"],
+        theme: [4, "theme"]
+      }, {
+        clicked: "clicked"
+      }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["Click Me!"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](51, 0, null, null, 5, "div", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](52, 0, null, null, 4, "ts-button", [["class", "ts-button"]], null, [[null, "clicked"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("clicked" === en) {
+          var pd_0 = _co.run("progress2") !== false;
+          ad = pd_0 && ad;
+        }
+
+        return ad;
+      }, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](53, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        format: [0, "format"],
+        isDisabled: [1, "isDisabled"],
+        showProgress: [2, "showProgress"],
+        theme: [3, "theme"]
+      }, {
+        clicked: "clicked"
+      }), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](54, 0, null, 0, 2, "ts-icon", [["class", "ts-icon"]], [[2, "ts-icon--inline", null], [2, "ts-icon--primary", null], [2, "ts-icon--accent", null], [2, "ts-icon--warn", null], [2, "ts-icon--background", null]], null, null, _dist_libs_ui_icon_terminus_ui_icon_ngfactory__WEBPACK_IMPORTED_MODULE_13__["View_TsIconComponent_0"], _dist_libs_ui_icon_terminus_ui_icon_ngfactory__WEBPACK_IMPORTED_MODULE_13__["RenderType_TsIconComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](55, 49152, null, 0, _terminus_ui_icon__WEBPACK_IMPORTED_MODULE_14__["TsIconComponent"], [_angular_material_icon__WEBPACK_IMPORTED_MODULE_15__["MatIconRegistry"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_16__["DomSanitizer"]], null, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["build"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](57, 0, null, null, 41, "ts-card", [["class", "double ts-card"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_card_terminus_ui_card_ngfactory__WEBPACK_IMPORTED_MODULE_4__["View_TsCardComponent_0"], _dist_libs_ui_card_terminus_ui_card_ngfactory__WEBPACK_IMPORTED_MODULE_4__["RenderType_TsCardComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](58, 49152, null, 0, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_5__["TsCardComponent"], [], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](59, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](60, 0, null, 0, 3, "h3", [["id", "title"], ["tsCardTitle", ""], ["tsVerticalSpacing", ""]], [[8, "className", 0]], null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](61, 16384, null, 0, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_5__["TsCardTitleDirective"], [[3, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_5__["TsCardComponent"]]], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](62, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" Themes: "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](64, 0, null, 0, 3, "ts-button", [["class", "ts-button"], ["id", "ts-button-id-1"], ["theme", "primary"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](65, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        id: [0, "id"],
+        theme: [1, "theme"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](66, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["Primary"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](68, 0, null, 0, 3, "ts-button", [["class", "ts-button"], ["format", "hollow"], ["icon", "home"], ["theme", "primary"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](69, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        format: [0, "format"],
+        theme: [1, "theme"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](70, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["Primary Hollow"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](72, 0, null, 0, 0, "br", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](73, 0, null, 0, 3, "ts-button", [["class", "ts-button"], ["theme", "accent"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](74, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        theme: [0, "theme"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](75, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["Accent"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](77, 0, null, 0, 3, "ts-button", [["class", "ts-button"], ["format", "hollow"], ["theme", "accent"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](78, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        format: [0, "format"],
+        theme: [1, "theme"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](79, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["Accent Hollow"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](81, 0, null, 0, 0, "br", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](82, 0, null, 0, 3, "ts-button", [["class", "ts-button"], ["theme", "warn"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](83, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        theme: [0, "theme"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](84, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["Warn"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](86, 0, null, 0, 3, "ts-button", [["class", "ts-button"], ["format", "hollow"], ["theme", "warn"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](87, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        format: [0, "format"],
+        theme: [1, "theme"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](88, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["Warn Hollow"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](90, 0, null, 0, 0, "br", [], null, null, null, null, null)), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](91, 0, null, 0, 3, "ts-button", [["class", "ts-button"], ["theme", "primary"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](92, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        isDisabled: [0, "isDisabled"],
+        theme: [1, "theme"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](93, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["I'm disabled :("])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](95, 0, null, 0, 3, "ts-button", [["class", "ts-button"], ["format", "hollow"], ["theme", "primary"], ["tsVerticalSpacing", ""]], null, [[null, "clicked"]], function (_v, en, $event) {
+        var ad = true;
+        var _co = _v.component;
+
+        if ("clicked" === en) {
+          var pd_0 = _co.run("progress2") !== false;
+          ad = pd_0 && ad;
+        }
+
+        return ad;
+      }, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](96, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        format: [0, "format"],
+        isDisabled: [1, "isDisabled"],
+        showProgress: [2, "showProgress"],
+        theme: [3, "theme"]
+      }, {
+        clicked: "clicked"
+      }), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](97, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["I'm disabled AND empty inside :("])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](99, 0, null, null, 25, "ts-card", [["class", "ts-card"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_card_terminus_ui_card_ngfactory__WEBPACK_IMPORTED_MODULE_4__["View_TsCardComponent_0"], _dist_libs_ui_card_terminus_ui_card_ngfactory__WEBPACK_IMPORTED_MODULE_4__["RenderType_TsCardComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](100, 49152, null, 0, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_5__["TsCardComponent"], [], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](101, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](102, 0, null, 0, 22, "div", [["fxLayout", "column"], ["fxLayoutAlign", "start end"], ["style", "padding-right: 2rem;"]], null, null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](103, 671744, null, 0, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_7__["DefaultLayoutDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["StyleUtils"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_7__["LayoutStyleBuilder"], _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["MediaMarshaller"]], {
+        fxLayout: [0, "fxLayout"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](104, 671744, null, 0, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_7__["DefaultLayoutAlignDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"], _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["StyleUtils"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_7__["LayoutAlignStyleBuilder"], _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_8__["MediaMarshaller"]], {
+        fxLayoutAlign: [0, "fxLayoutAlign"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](105, 0, null, null, 3, "h3", [["tsCardTitle", ""], ["tsVerticalSpacing", ""]], [[8, "className", 0]], null, null, null, null)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](106, 16384, null, 0, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_5__["TsCardTitleDirective"], [[3, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_5__["TsCardComponent"]]], null, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](107, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, null, [" Collapsable "])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](109, 0, null, null, 3, "ts-button", [["class", "ts-button"], ["iconName", "add"], ["theme", "primary"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](110, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        format: [0, "format"],
+        iconName: [1, "iconName"],
+        theme: [2, "theme"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](111, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["New Campaign / New Tactic"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](113, 0, null, null, 3, "ts-button", [["class", "ts-button"], ["iconName", "add"], ["theme", "accent"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](114, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        format: [0, "format"],
+        iconName: [1, "iconName"],
+        theme: [2, "theme"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](115, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["New Campaign / New Tactic"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](117, 0, null, null, 3, "ts-button", [["class", "ts-button"], ["iconName", "add"], ["theme", "warn"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](118, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        format: [0, "format"],
+        iconName: [1, "iconName"],
+        theme: [2, "theme"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](119, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["New Campaign / New Tactic"])), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](121, 0, null, null, 3, "ts-button", [["class", "ts-button"], ["iconName", "add"], ["theme", "primary"], ["tsVerticalSpacing", ""]], null, null, null, _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["View_TsButtonComponent_0"], _dist_libs_ui_button_terminus_ui_button_ngfactory__WEBPACK_IMPORTED_MODULE_10__["RenderType_TsButtonComponent"])), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](122, 245760, null, 0, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_11__["TsButtonComponent"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_12__["TsWindowService"], _angular_core__WEBPACK_IMPORTED_MODULE_1__["Renderer2"]], {
+        format: [0, "format"],
+        iconName: [1, "iconName"],
+        isDisabled: [2, "isDisabled"],
+        theme: [3, "theme"]
+      }, null), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](123, 16384, null, 0, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_6__["TsVerticalSpacingDirective"], [_angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"]], {
+        tsVerticalSpacing: [0, "tsVerticalSpacing"]
+      }, null), (_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵted"](-1, 0, ["Rounded - Disabled"]))], function (_ck, _v) {
+        var _co = _v.component;
+        var currVal_0 = "";
+
+        _ck(_v, 3, 0, currVal_0);
+
+        var currVal_1 = "row";
+
+        _ck(_v, 5, 0, currVal_1);
+
+        var currVal_2 = "2em";
+
+        _ck(_v, 6, 0, currVal_2);
+
+        var currVal_3 = "";
+
+        _ck(_v, 9, 0, currVal_3);
+
+        var currVal_11 = "myTheme";
+        var currVal_12 = _co.myTheme;
+
+        _ck(_v, 15, 0, currVal_11, currVal_12);
+
+        var currVal_13 = _co.themes;
+
+        _ck(_v, 19, 0, currVal_13);
+
+        var currVal_14 = "";
+
+        _ck(_v, 21, 0, currVal_14);
+
+        var currVal_22 = "myFormat";
+        var currVal_23 = _co.myFormat;
+
+        _ck(_v, 27, 0, currVal_22, currVal_23);
+
+        var currVal_24 = _co.formats;
+
+        _ck(_v, 31, 0, currVal_24);
+
+        var currVal_25 = "";
+
+        _ck(_v, 33, 0, currVal_25);
+
+        var currVal_26 = "";
+
+        _ck(_v, 35, 0, currVal_26);
+
+        var currVal_34 = _co.layoutIsRightAligned;
+
+        _ck(_v, 40, 0, currVal_34);
+
+        var currVal_36 = "column";
+
+        _ck(_v, 45, 0, currVal_36);
+
+        var currVal_37 = "small--0";
+
+        _ck(_v, 47, 0, currVal_37);
+
+        var currVal_38 = _co.myFormat;
+        var currVal_39 = _co.icon;
+        var currVal_40 = _co.disabled;
+        var currVal_41 = _co.progress2;
+        var currVal_42 = _co.myTheme;
+
+        _ck(_v, 49, 0, currVal_38, currVal_39, currVal_40, currVal_41, currVal_42);
+
+        var currVal_43 = _co.myFormat;
+        var currVal_44 = _co.disabled;
+        var currVal_45 = _co.progress2;
+        var currVal_46 = _co.myTheme;
+
+        _ck(_v, 53, 0, currVal_43, currVal_44, currVal_45, currVal_46);
+
+        var currVal_52 = "";
+
+        _ck(_v, 59, 0, currVal_52);
+
+        var currVal_54 = "";
+
+        _ck(_v, 62, 0, currVal_54);
+
+        var currVal_55 = "ts-button-id-1";
+        var currVal_56 = "primary";
+
+        _ck(_v, 65, 0, currVal_55, currVal_56);
+
+        var currVal_57 = "";
+
+        _ck(_v, 66, 0, currVal_57);
+
+        var currVal_58 = "hollow";
+        var currVal_59 = "primary";
+
+        _ck(_v, 69, 0, currVal_58, currVal_59);
+
+        var currVal_60 = "";
+
+        _ck(_v, 70, 0, currVal_60);
+
+        var currVal_61 = "accent";
+
+        _ck(_v, 74, 0, currVal_61);
+
+        var currVal_62 = "";
+
+        _ck(_v, 75, 0, currVal_62);
+
+        var currVal_63 = "hollow";
+        var currVal_64 = "accent";
+
+        _ck(_v, 78, 0, currVal_63, currVal_64);
+
+        var currVal_65 = "";
+
+        _ck(_v, 79, 0, currVal_65);
+
+        var currVal_66 = "warn";
+
+        _ck(_v, 83, 0, currVal_66);
+
+        var currVal_67 = "";
+
+        _ck(_v, 84, 0, currVal_67);
+
+        var currVal_68 = "hollow";
+        var currVal_69 = "warn";
+
+        _ck(_v, 87, 0, currVal_68, currVal_69);
+
+        var currVal_70 = "";
+
+        _ck(_v, 88, 0, currVal_70);
+
+        var currVal_71 = true;
+        var currVal_72 = "primary";
+
+        _ck(_v, 92, 0, currVal_71, currVal_72);
+
+        var currVal_73 = "";
+
+        _ck(_v, 93, 0, currVal_73);
+
+        var currVal_74 = "hollow";
+        var currVal_75 = true;
+        var currVal_76 = _co.progress2;
+        var currVal_77 = "primary";
+
+        _ck(_v, 96, 0, currVal_74, currVal_75, currVal_76, currVal_77);
+
+        var currVal_78 = "";
+
+        _ck(_v, 97, 0, currVal_78);
+
+        var currVal_79 = "";
+
+        _ck(_v, 101, 0, currVal_79);
+
+        var currVal_80 = "column";
+
+        _ck(_v, 103, 0, currVal_80);
+
+        var currVal_81 = "start end";
+
+        _ck(_v, 104, 0, currVal_81);
+
+        var currVal_83 = "";
+
+        _ck(_v, 107, 0, currVal_83);
+
+        var currVal_84 = _co.formatCollapsible;
+        var currVal_85 = "add";
+        var currVal_86 = "primary";
+
+        _ck(_v, 110, 0, currVal_84, currVal_85, currVal_86);
+
+        var currVal_87 = "";
+
+        _ck(_v, 111, 0, currVal_87);
+
+        var currVal_88 = _co.formatCollapsible;
+        var currVal_89 = "add";
+        var currVal_90 = "accent";
+
+        _ck(_v, 114, 0, currVal_88, currVal_89, currVal_90);
+
+        var currVal_91 = "";
+
+        _ck(_v, 115, 0, currVal_91);
+
+        var currVal_92 = _co.formatCollapsible;
+        var currVal_93 = "add";
+        var currVal_94 = "warn";
+
+        _ck(_v, 118, 0, currVal_92, currVal_93, currVal_94);
+
+        var currVal_95 = "";
+
+        _ck(_v, 119, 0, currVal_95);
+
+        var currVal_96 = _co.formatCollapsible;
+        var currVal_97 = "add";
+        var currVal_98 = true;
+        var currVal_99 = "primary";
+
+        _ck(_v, 122, 0, currVal_96, currVal_97, currVal_98, currVal_99);
+
+        var currVal_100 = "";
+
+        _ck(_v, 123, 0, currVal_100);
+      }, function (_ck, _v) {
+        var _co = _v.component;
+
+        var currVal_4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 17).ngClassUntouched;
+
+        var currVal_5 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 17).ngClassTouched;
+
+        var currVal_6 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 17).ngClassPristine;
+
+        var currVal_7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 17).ngClassDirty;
+
+        var currVal_8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 17).ngClassValid;
+
+        var currVal_9 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 17).ngClassInvalid;
+
+        var currVal_10 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 17).ngClassPending;
+
+        _ck(_v, 12, 0, currVal_4, currVal_5, currVal_6, currVal_7, currVal_8, currVal_9, currVal_10);
+
+        var currVal_15 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).ngClassUntouched;
+
+        var currVal_16 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).ngClassTouched;
+
+        var currVal_17 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).ngClassPristine;
+
+        var currVal_18 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).ngClassDirty;
+
+        var currVal_19 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).ngClassValid;
+
+        var currVal_20 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).ngClassInvalid;
+
+        var currVal_21 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 29).ngClassPending;
+
+        _ck(_v, 24, 0, currVal_15, currVal_16, currVal_17, currVal_18, currVal_19, currVal_20, currVal_21);
+
+        var currVal_27 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 42).ngClassUntouched;
+
+        var currVal_28 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 42).ngClassTouched;
+
+        var currVal_29 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 42).ngClassPristine;
+
+        var currVal_30 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 42).ngClassDirty;
+
+        var currVal_31 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 42).ngClassValid;
+
+        var currVal_32 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 42).ngClassInvalid;
+
+        var currVal_33 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 42).ngClassPending;
+
+        _ck(_v, 37, 0, currVal_27, currVal_28, currVal_29, currVal_30, currVal_31, currVal_32, currVal_33);
+
+        var currVal_35 = _co.layout;
+
+        _ck(_v, 43, 0, currVal_35);
+
+        var currVal_47 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 55).inline;
+
+        var currVal_48 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 55).theme === "primary";
+        var currVal_49 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 55).theme === "accent";
+        var currVal_50 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 55).theme === "warn";
+
+        var currVal_51 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 55).background;
+
+        _ck(_v, 54, 0, currVal_47, currVal_48, currVal_49, currVal_50, currVal_51);
+
+        var currVal_53 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 61).tsCardTitle;
+
+        _ck(_v, 60, 0, currVal_53);
+
+        var currVal_82 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵnov"](_v, 106).tsCardTitle;
+
+        _ck(_v, 105, 0, currVal_82);
+      });
+    }
+
+    function View_ButtonComponent_Host_0(_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵvid"](0, [(_l()(), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵeld"](0, 0, null, null, 1, "demo-button", [], null, null, null, View_ButtonComponent_0, RenderType_ButtonComponent)), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵdid"](1, 49152, null, 0, _button_component__WEBPACK_IMPORTED_MODULE_17__["ButtonComponent"], [], null, null)], null, null);
+    }
+
+    var ButtonComponentNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵccf"]("demo-button", _button_component__WEBPACK_IMPORTED_MODULE_17__["ButtonComponent"], View_ButtonComponent_Host_0, {}, {}, []);
+    /***/
+
+  },
+
+  /***/
+  "./src/app/components/button/button.component.scss.shim.ngstyle.js":
+  /*!*************************************************************************!*\
+    !*** ./src/app/components/button/button.component.scss.shim.ngstyle.js ***!
+    \*************************************************************************/
+
+  /*! exports provided: styles */
+
+  /***/
+  function srcAppComponentsButtonButtonComponentScssShimNgstyleJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "styles", function () {
+      return styles;
+    });
+    /**
+     * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+     *
+     * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes,extraRequire}
+     * tslint:disable
+     */
+
+
+    var styles = [".double[_ngcontent-%COMP%]   .ts-button[_ngcontent-%COMP%] {\n  margin-right: 1em;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3J1bm5lci93b3JrL3Rlcm1pbnVzLW9zcy90ZXJtaW51cy1vc3MvYXBwcy9zaG93Y2FzZS11aS9zcmMvYXBwL2NvbXBvbmVudHMvYnV0dG9uL2J1dHRvbi5jb21wb25lbnQuc2NzcyIsImFwcHMvc2hvd2Nhc2UtdWkvc3JjL2FwcC9jb21wb25lbnRzL2J1dHRvbi9idXR0b24uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFFSSxpQkFBaUI7QUNBckIiLCJmaWxlIjoiYXBwcy9zaG93Y2FzZS11aS9zcmMvYXBwL2NvbXBvbmVudHMvYnV0dG9uL2J1dHRvbi5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5kb3VibGUge1xuICAudHMtYnV0dG9uIHtcbiAgICBtYXJnaW4tcmlnaHQ6IDFlbTtcbiAgfVxufVxuIiwiLmRvdWJsZSAudHMtYnV0dG9uIHtcbiAgbWFyZ2luLXJpZ2h0OiAxZW07XG59XG4iXX0= */"];
+    /***/
+  },
+
+  /***/
+  "./src/app/components/button/button.component.ts":
+  /*!*******************************************************!*\
+    !*** ./src/app/components/button/button.component.ts ***!
+    \*******************************************************/
+
+  /*! exports provided: ButtonComponent */
+
+  /***/
+  function srcAppComponentsButtonButtonComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ButtonComponent", function () {
+      return ButtonComponent;
+    });
+
+    var ButtonComponent = /*#__PURE__*/function () {
+      function ButtonComponent() {
+        _classCallCheck(this, ButtonComponent);
+
+        this.style = 'primary';
+        this.disabled = false;
+        this.progress1 = false;
+        this.progress2 = false;
+        this.icon = 'home';
+        this.formatCollapsible = 'collapsible';
+        this.formats = ['filled', 'hollow', 'collapsible'];
+        this.myFormat = 'filled';
+        this.myTheme = 'primary';
+        this.themes = ['primary', 'accent', 'warn'];
+        this.layoutIsRightAligned = false;
+      }
+
+      _createClass(ButtonComponent, [{
+        key: "run",
+        value: function run(progress) {
+          var _this = this;
+
+          console.log('Demo: In run!');
+
+          if (progress === 'progress1') {
+            this.progress1 = true;
+          }
+
+          if (progress === 'progress2') {
+            this.progress2 = true;
+          }
+
+          setTimeout(function () {
+            if (progress === 'progress1') {
+              _this.progress1 = false;
+            }
+
+            if (progress === 'progress2') {
+              _this.progress2 = false;
+            }
+          }, 2000);
+        }
+      }, {
+        key: "layout",
+        get: function get() {
+          return this.layoutIsRightAligned ? 'right' : 'left';
+        }
+      }]);
+
+      return ButtonComponent;
+    }();
+    /***/
+
+  },
+
+  /***/
+  "./src/app/components/button/button.module.ngfactory.js":
+  /*!**************************************************************!*\
+    !*** ./src/app/components/button/button.module.ngfactory.js ***!
+    \**************************************************************/
+
+  /*! exports provided: ButtonModuleNgFactory */
+
+  /***/
+  function srcAppComponentsButtonButtonModuleNgfactoryJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ButtonModuleNgFactory", function () {
+      return ButtonModuleNgFactory;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "../../node_modules/@angular/core/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _button_module__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./button.module */
+    "./src/app/components/button/button.module.ts");
+    /* harmony import */
+
+
+    var _node_modules_angular_router_router_ngfactory__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ../../../../../../node_modules/@angular/router/router.ngfactory */
+    "../../node_modules/@angular/router/router.ngfactory.js");
+    /* harmony import */
+
+
+    var _button_component_ngfactory__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./button.component.ngfactory */
+    "./src/app/components/button/button.component.ngfactory.js");
+    /* harmony import */
+
+
+    var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! @angular/common */
+    "../../node_modules/@angular/common/fesm2015/common.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! @angular/flex-layout/core */
+    "../../node_modules/@angular/flex-layout/esm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_forms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    /*! @angular/forms */
+    "../../node_modules/@angular/forms/fesm2015/forms.js");
+    /* harmony import */
+
+
+    var _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    /*! @terminus/ngx-tools/browser */
+    "../../node_modules/@terminus/ngx-tools/fesm2015/terminus-ngx-tools-browser.js");
+    /* harmony import */
+
+
+    var _angular_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    /*! @angular/router */
+    "../../node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
+
+
+    var _button_routing_module__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! ./button-routing.module */
+    "./src/app/components/button/button-routing.module.ts");
+    /* harmony import */
+
+
+    var _angular_cdk_bidi__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! @angular/cdk/bidi */
+    "../../node_modules/@angular/cdk/fesm2015/bidi.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! @angular/flex-layout/flex */
+    "../../node_modules/@angular/flex-layout/esm2015/flex.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! @angular/flex-layout/extended */
+    "../../node_modules/@angular/flex-layout/esm2015/extended.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout_grid__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! @angular/flex-layout/grid */
+    "../../node_modules/@angular/flex-layout/esm2015/grid.js");
+    /* harmony import */
+
+
+    var _angular_flex_layout__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    /*! @angular/flex-layout */
+    "../../node_modules/@angular/flex-layout/esm2015/flex-layout.js");
+    /* harmony import */
+
+
+    var _angular_material_core__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    /*! @angular/material/core */
+    "../../node_modules/@angular/material/fesm2015/core.js");
+    /* harmony import */
+
+
+    var _angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    /*! @angular/cdk/a11y */
+    "../../node_modules/@angular/cdk/fesm2015/a11y.js");
+    /* harmony import */
+
+
+    var _angular_cdk_platform__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    /*! @angular/cdk/platform */
+    "../../node_modules/@angular/cdk/fesm2015/platform.js");
+    /* harmony import */
+
+
+    var _angular_material_button__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+    /*! @angular/material/button */
+    "../../node_modules/@angular/material/fesm2015/button.js");
+    /* harmony import */
+
+
+    var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(
+    /*! @angular/material/progress-spinner */
+    "../../node_modules/@angular/material/fesm2015/progress-spinner.js");
+    /* harmony import */
+
+
+    var _angular_material_icon__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(
+    /*! @angular/material/icon */
+    "../../node_modules/@angular/material/fesm2015/icon.js");
+    /* harmony import */
+
+
+    var _terminus_ui_icon__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(
+    /*! @terminus/ui-icon */
+    "../../dist/libs/ui/icon/fesm2015/terminus-ui-icon.js");
+    /* harmony import */
+
+
+    var _terminus_ui_button__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(
+    /*! @terminus/ui-button */
+    "../../dist/libs/ui/button/fesm2015/terminus-ui-button.js");
+    /* harmony import */
+
+
+    var _terminus_ui_card__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(
+    /*! @terminus/ui-card */
+    "../../dist/libs/ui/card/fesm2015/terminus-ui-card.js");
+    /* harmony import */
+
+
+    var _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(
+    /*! @terminus/ui-spacing */
+    "../../dist/libs/ui/spacing/fesm2015/terminus-ui-spacing.js");
+    /* harmony import */
+
+
+    var _button_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(
+    /*! ./button.component */
+    "./src/app/components/button/button.component.ts");
+    /**
+     * @fileoverview This file was generated by the Angular template compiler. Do not edit.
+     *
+     * @suppress {suspiciousCode,uselessCode,missingProperties,missingOverride,checkTypes,extraRequire}
+     * tslint:disable
+     */
+
+
+    var ButtonModuleNgFactory = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵcmf"](_button_module__WEBPACK_IMPORTED_MODULE_1__["ButtonModule"], [], function (_l) {
+      return _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmod"]([_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](512, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵCodegenComponentFactoryResolver"], [[8, [_node_modules_angular_router_router_ngfactory__WEBPACK_IMPORTED_MODULE_2__["ɵangular_packages_router_router_lNgFactory"], _button_component_ngfactory__WEBPACK_IMPORTED_MODULE_3__["ButtonComponentNgFactory"]]], [3, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ComponentFactoryResolver"]], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModuleRef"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgLocalization"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgLocaleLocalization"], [_angular_core__WEBPACK_IMPORTED_MODULE_0__["LOCALE_ID"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](5120, _angular_core__WEBPACK_IMPORTED_MODULE_0__["APP_BOOTSTRAP_LISTENER"], function (p0_0, p0_1) {
+        return [_angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_5__["removeStyles"](p0_0, p0_1)];
+      }, [_angular_common__WEBPACK_IMPORTED_MODULE_4__["DOCUMENT"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _angular_forms__WEBPACK_IMPORTED_MODULE_6__["ɵangular_packages_forms_forms_n"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__["ɵangular_packages_forms_forms_n"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](4608, _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_7__["TsWindowService"], _terminus_ngx_tools_browser__WEBPACK_IMPORTED_MODULE_7__["TsWindowService"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_router__WEBPACK_IMPORTED_MODULE_8__["RouterModule"], _angular_router__WEBPACK_IMPORTED_MODULE_8__["RouterModule"], [[2, _angular_router__WEBPACK_IMPORTED_MODULE_8__["ɵangular_packages_router_router_a"]], [2, _angular_router__WEBPACK_IMPORTED_MODULE_8__["Router"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _button_routing_module__WEBPACK_IMPORTED_MODULE_9__["ButtonRoutingModule"], _button_routing_module__WEBPACK_IMPORTED_MODULE_9__["ButtonRoutingModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_common__WEBPACK_IMPORTED_MODULE_4__["CommonModule"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["CommonModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_5__["CoreModule"], _angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_5__["CoreModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_cdk_bidi__WEBPACK_IMPORTED_MODULE_10__["BidiModule"], _angular_cdk_bidi__WEBPACK_IMPORTED_MODULE_10__["BidiModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_11__["FlexModule"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_11__["FlexModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_12__["ExtendedModule"], _angular_flex_layout_extended__WEBPACK_IMPORTED_MODULE_12__["ExtendedModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_flex_layout_grid__WEBPACK_IMPORTED_MODULE_13__["GridModule"], _angular_flex_layout_grid__WEBPACK_IMPORTED_MODULE_13__["GridModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_flex_layout__WEBPACK_IMPORTED_MODULE_14__["FlexLayoutModule"], _angular_flex_layout__WEBPACK_IMPORTED_MODULE_14__["FlexLayoutModule"], [_angular_flex_layout_core__WEBPACK_IMPORTED_MODULE_5__["SERVER_TOKEN"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["PLATFORM_ID"]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_forms__WEBPACK_IMPORTED_MODULE_6__["ɵangular_packages_forms_forms_d"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__["ɵangular_packages_forms_forms_d"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"], _angular_forms__WEBPACK_IMPORTED_MODULE_6__["FormsModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_material_core__WEBPACK_IMPORTED_MODULE_15__["MatCommonModule"], _angular_material_core__WEBPACK_IMPORTED_MODULE_15__["MatCommonModule"], [_angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_16__["HighContrastModeDetector"], [2, _angular_material_core__WEBPACK_IMPORTED_MODULE_15__["MATERIAL_SANITY_CHECKS"]], [2, _angular_common__WEBPACK_IMPORTED_MODULE_4__["DOCUMENT"]]]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_cdk_platform__WEBPACK_IMPORTED_MODULE_17__["PlatformModule"], _angular_cdk_platform__WEBPACK_IMPORTED_MODULE_17__["PlatformModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_material_core__WEBPACK_IMPORTED_MODULE_15__["MatRippleModule"], _angular_material_core__WEBPACK_IMPORTED_MODULE_15__["MatRippleModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_material_button__WEBPACK_IMPORTED_MODULE_18__["MatButtonModule"], _angular_material_button__WEBPACK_IMPORTED_MODULE_18__["MatButtonModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_19__["MatProgressSpinnerModule"], _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_19__["MatProgressSpinnerModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _angular_material_icon__WEBPACK_IMPORTED_MODULE_20__["MatIconModule"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_20__["MatIconModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _terminus_ui_icon__WEBPACK_IMPORTED_MODULE_21__["TsIconModule"], _terminus_ui_icon__WEBPACK_IMPORTED_MODULE_21__["TsIconModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _terminus_ui_button__WEBPACK_IMPORTED_MODULE_22__["TsButtonModule"], _terminus_ui_button__WEBPACK_IMPORTED_MODULE_22__["TsButtonModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _terminus_ui_card__WEBPACK_IMPORTED_MODULE_23__["TsCardModule"], _terminus_ui_card__WEBPACK_IMPORTED_MODULE_23__["TsCardModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_24__["TsSpacingModule"], _terminus_ui_spacing__WEBPACK_IMPORTED_MODULE_24__["TsSpacingModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1073742336, _button_module__WEBPACK_IMPORTED_MODULE_1__["ButtonModule"], _button_module__WEBPACK_IMPORTED_MODULE_1__["ButtonModule"], []), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵmpd"](1024, _angular_router__WEBPACK_IMPORTED_MODULE_8__["ROUTES"], function () {
+        return [[{
+          path: "",
+          component: _button_component__WEBPACK_IMPORTED_MODULE_25__["ButtonComponent"]
+        }]];
+      }, [])]);
+    });
+    /***/
+
+  },
+
+  /***/
+  "./src/app/components/button/button.module.ts":
+  /*!****************************************************!*\
+    !*** ./src/app/components/button/button.module.ts ***!
+    \****************************************************/
+
+  /*! exports provided: ButtonModule */
+
+  /***/
+  function srcAppComponentsButtonButtonModuleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "ButtonModule", function () {
+      return ButtonModule;
+    });
+
+    var ButtonModule = function ButtonModule() {
+      _classCallCheck(this, ButtonModule);
+    };
+    /***/
+
+  }
+}]);
+//# sourceMappingURL=button-button-module-ngfactory-es5.js.map
